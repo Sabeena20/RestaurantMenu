@@ -19,5 +19,25 @@ namespace RestaurantMenu
             IsNewItemAdded = isnewItemAdded;
         }
 
+        public string NewItem()
+        {
+            if (IsNewItemAdded)
+            {
+                return ("This item added is new.");
+            }
+            else 
+            {
+                return ("The added item is not new.");
+            }
+       }
+
+       // public override bool Equals(object obj)
+        //{
+           //if(obj == this)
+            //{
+                //return true;
+            //}
+           //if
+        }
     }
-}
+
