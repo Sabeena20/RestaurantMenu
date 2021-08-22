@@ -31,9 +31,9 @@ namespace RestaurantMenu
                 {
                     itemsToBeRemoved = i;
                 }
-                Items.RemoveAt(itemsToBeRemoved);
-                return Items;
-             }
+              }
+            Items.RemoveAt(itemsToBeRemoved);
+            return Items;
         }
         public string MenuUpdate()
         {
@@ -46,7 +46,7 @@ namespace RestaurantMenu
 
         }
 
-        public void PrintMenu(MenuItem item)
+        public void PrintMenu()
         {
             for(int i = 0;i < Items.Count; i++)
             {
